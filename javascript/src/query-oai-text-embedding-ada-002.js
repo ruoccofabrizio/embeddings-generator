@@ -8,11 +8,11 @@ const deploymentName = process.env.DEPLOYMENT_NAME;
 const apiVersion = process.env.OPENAI_API_VERSION;
 
 const requestData = {
-  input: "touchdown",
+  input: "roger federer",
 };
 
 const fs = require("fs");
-const outputFilePath = "./queryVector.json";
+const outputFilePath = "output/queryVector.json";
 
 axios
   .post(
@@ -39,3 +39,6 @@ axios
   .catch((error) => {
     console.error(error);
   });
+
+
+  

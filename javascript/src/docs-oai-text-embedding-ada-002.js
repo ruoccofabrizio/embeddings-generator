@@ -254,7 +254,7 @@ generateEmbeddings(inputData).then((embeddings) => {
   console.log(docsVectors);
 
   // Write embeddings to a JSON file
-  const outputFilePath = "./docVectors.json";
+  const outputFilePath = "output/docVectors.json";
   const jsonData = JSON.stringify(docsVectors);
   fs.writeFile(outputFilePath, jsonData, (err) => {
     if (err) {
