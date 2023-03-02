@@ -16,7 +16,7 @@ This repository is built with code samples in Python, Javascript, and the OpenAI
 - Azure OpenAI or OpenAI service
 - Text data in JSON format
 - For javascript sample, you will need Node (I'm using version 16.x)
-- For Pyton sample, you will need Python (I'm using a jupyter notebook version 3.9)
+- For Python sample, you will need Python (I'm using a jupyter notebook version 3.9)
 
 Once you've met all the pre-requisites, you'll need to follow these steps:
 
@@ -24,7 +24,7 @@ Once you've met all the pre-requisites, you'll need to follow these steps:
 2. Change into the newly created directory using `cd [your directory here]`
 3. For javascript, install the required dependencies by running `npm install` or `yarn install`;
 
-   3.1 For javascript, run the nodejs file by using the `node name-of-file.js` command
+   3.1 For javascript, simply run the nodejs file by using the `node name-of-file.js` command
 
    3.2 For python, simply run the jupyter notebook or by using the `python name-of-file.ipynb` command
 
@@ -37,6 +37,7 @@ Once you've met all the pre-requisites, you'll need to follow these steps:
     OPENAI_API_VERSION=2022-12-01
     OPENAI_API_KEY=your-api-key
    ```
+5. Once you generate the embeddings, navigate to the `output` folder and you will see the queryVector and docVector json files that you can use for vector retrieval
 
 ## Conclusion
 
