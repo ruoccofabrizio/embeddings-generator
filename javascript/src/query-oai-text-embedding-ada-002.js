@@ -8,7 +8,7 @@ const deploymentName = process.env.DEPLOYMENT_NAME;
 const apiVersion = process.env.OPENAI_API_VERSION;
 
 const requestData = {
-  input: "roger federer",
+  input: "футболист",
 };
 
 const fs = require("fs");
@@ -39,6 +39,3 @@ axios
   .catch((error) => {
     console.error(error);
   });
-
-
-  
